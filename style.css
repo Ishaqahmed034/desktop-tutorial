@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(232, 242, 244);
+}
+
+.sports-table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.sports-table th, .sports-table td {
+  border: 1px solid #070501;
+  padding: 12px;
+  text-align: center;
+}
+
+.sports-table th {
+  background-color: #6fa5ec;
+  color: white;
+}
+
+.sports-table tr:nth-child(even) {
+  background-color: #ccc8c0;
+}
+
+.sports-table tr:hover {
+  background-color: #e0f7fa;
+  transition: 0.3s;
+}
+.task-table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #999;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+}
+
+.task-table th {
+  background-color: #f9fafafb;
+  color: black;
+}
+
+.task-table tr:hover {
+  background-color: transparent;
+}
+
+.task-table td.yellow {
+  background-color: #ffffcc;
+}
+
+.task-table td.green {
+  background-color: #ccffcc; 
+}
+
+.task-table td.purple {
+  background-color: #d1c4e9; 
+}
+.hello{
+  background-color: #6fa5ec
+  ;
+}
+#hey{
+  background-color: #999;
+}
